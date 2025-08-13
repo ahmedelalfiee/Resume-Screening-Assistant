@@ -1,0 +1,7 @@
+[theme]
+base="dark"
+primaryColor="#FF8C00"            # Orange buttons & highlights
+backgroundColor="#0E1117"         # Main background (dark navy)
+secondaryBackgroundColor="#1A1D23" # Sidebar & widget background
+textColor="#FFFFFF"                # Main text
+font="sans serif"
