@@ -5,7 +5,6 @@ import base64
 import streamlit as st
 import os
 import io
-from PIL import Image 
 import pdf2image
 import google.generativeai as genai
 
@@ -19,12 +18,10 @@ def get_gemini_response(input,pdf_content,prompt):
 
 def input_pdf_setup(uploaded_file):
     if uploaded_file is not None:
-        ## Convert the PDF to image
         images=pdf2image.convert_from_bytes(uploaded_file.read())
 
         first_page=images[0]
 
-        # Convert to bytes
         img_byte_arr = io.BytesIO()
         first_page.save(img_byte_arr, format='JPEG')
         img_byte_arr = img_byte_arr.getvalue()
@@ -39,8 +36,6 @@ def input_pdf_setup(uploaded_file):
     else:
         raise FileNotFoundError("No file uploaded")
 
-## Streamlit App
-
 st.set_page_config(page_title="Resume Screening Assistant")
 st.header("Resume Screening Assistant ")
 input_text=st.text_area("Job Description: ",key="input")
@@ -52,9 +47,6 @@ if uploaded_file is not None:
 
 
 submit1 = st.button("Am I a Good Fit?")
-
-#submit2 = st.button("How Can I Improvise my Skills")
-
 submit3 = st.button("How much do I match?")
 
 input_prompt1 = """
@@ -90,6 +82,7 @@ elif submit3:
 
 
    
+
 
 
 
