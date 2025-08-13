@@ -3,7 +3,7 @@
 
 That was me today, stuck in the usual cycle of reading and rereading job descriptions, trying to figure out if my resume is suitable for the job.
 
-So, I decided to automate the process! I built a simple Resume Screening Assistant that does the heavy lifting for you:
+So, I decided to automate the process! I built a simple **Resume Screening Assistant** that does the heavy lifting for you:
 
 ✨ What it does:
 
