@@ -16,17 +16,14 @@ It’s a simple tool that made my search easier, and I believe it could help you
 If you’re hunting for your next job and want to save time while having a bit of fun along the way, give it a try! 🚀
 
 # Folder Structure
-Resume-Screening-Assistant/
-├── app.py          # Streamlit UI
-
-├── packages.txt    # install Poppler’s binaries    
-
-├── .streamlit/
-
-   └── config.toml     # UI design
-
+```text
+incremental-face-recognition/
+├── app.py              # Streamlit UI
+├── src/
+│   └── face_ops.py     # Embedding & FAISS logic
+├── models/             # 
+├── data/               # save/load index
 ├── requirements.txt
-
 └── README.md
 
 # Usage
