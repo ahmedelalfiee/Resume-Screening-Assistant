@@ -17,11 +17,16 @@ If you’re hunting for your next job and want to save time while having a bit o
 
 # Folder Structure
 Resume-Screening-Assistant/
-├── app.py              # Streamlit UI
-├── packages.txt        # install Poppler’s binaries
+├── app.py          # Streamlit UI
+
+├── packages.txt    # install Poppler’s binaries    
+
 ├── .streamlit/
-│   └── config.toml     # UI design
+
+   └── config.toml     # UI design
+
 ├── requirements.txt
+
 └── README.md
 
 # Usage
