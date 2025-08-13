@@ -15,7 +15,7 @@ It’s a simple tool that made my search easier, and I believe it could help you
 
 If you’re hunting for your next job and want to save time while having a bit of fun along the way, give it a try! 🚀
 
-# Folder Structure
+## Folder Structure
 ```text
 incremental-face-recognition/
 ├── app.py              # Streamlit UI
@@ -25,9 +25,12 @@ incremental-face-recognition/
 ├── data/               # save/load index
 ├── requirements.txt
 └── README.md
+```
 
 # Usage
+```
 - conda create -p venv python==3.10
 - conda activate venv/
 - pip install -r requirements.txt
 - streamlit run app.py
+```
