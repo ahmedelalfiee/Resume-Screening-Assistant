@@ -1,1 +1,1 @@
-# Resume-Screening-Assistant
+# Resume Screening Assistant
