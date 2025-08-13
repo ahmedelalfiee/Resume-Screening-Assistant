@@ -17,12 +17,11 @@ If you’re hunting for your next job and want to save time while having a bit o
 
 ## Folder Structure
 ```text
-incremental-face-recognition/
+Resume-Screening-Assistant/
 ├── app.py              # Streamlit UI
-├── src/
-│   └── face_ops.py     # Embedding & FAISS logic
-├── models/             # 
-├── data/               # save/load index
+├── .streamlit/
+│   └── config.toml     # UI Design          
+├── packages.txt        # install Poppler’s binaries
 ├── requirements.txt
 └── README.md
 ```
