@@ -6,6 +6,7 @@ That was me today, stuck in the usual cycle of reading and rereading job descrip
 So, I decided to automate the process! I built a simple Resume Screening Assistant that does the heavy lifting for you:
 
 ✨ What it does:
+
 1️⃣ Highlights your strengths and weaknesses in relation to a job description.
 
 2️⃣ Gives you a match percentage, so you know exactly how well your resume aligns with the role.
