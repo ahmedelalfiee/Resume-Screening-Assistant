@@ -33,3 +33,5 @@ Resume-Screening-Assistant/
 - pip install -r requirements.txt
 - streamlit run app.py
 ```
+
+**Note**: Don't forget to add your Google API key to get started with the model. 
